@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page</title>
+  </head>
+  <style>
+    table {
+      border: 0px solid black;
+    }
+  </style>
+  <body>
+    <table width="100%">
+      <tr>
+        <td colspan="3">
+          <h1 style="text-align: center">Dogs' site - Contacts</h1>
+        </td>
+      </tr>
+      <tr height="500">
+        <td width="200">
+          <p>Menu</p>
+          <ul>
+            <li><a href="./index.html">Main page</a></li>
+            <li><a href="./resumePage.html">Resume</a></li>
+            <li><a href="./contactPage.html">Contact</a></li>
+          </ul>
+        </td>
+        <td>
+          <table width="100%" style="border: 0px">
+            <tr>
+              <td>
+                <h2>Contact us</h2>
+                <p><b>By email</b></p>
+                <p><a href="mailto:someone@example.com">Send us an email</a></p>
+                <hr />
+                <h4>Message</h4>
+                <h5>Left your question via form</h5>
+                <form method="get" action="">
+                  <label for="name">Name:</label><br />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value="John" /><br /><br />
+                  <label for="email">Enter your email:</label><br />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value="email@domain.com" /><br /><br />
+                  <label for="phone"> Enter your phone number:</label><br />
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    value="123-456-7890" /><br /><br />
+                  <label for="message">Message:</label><br />
+                  <textarea
+                    type="text"
+                    name="message"
+                    id="message"
+                    cols="20"
+                    rows="5">
+                  </textarea
+                  ><br /><br />
+                  <input type="submit" formtarget="_self" />
+                </form>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="150">
+          <p style="text-align: center">Your ad can be here</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><p>Kristina Trach, 2024</p></td>
+      </tr>
+    </table>
+  </body>
+</html>
