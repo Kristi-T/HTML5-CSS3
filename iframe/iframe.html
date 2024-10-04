@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia and iFrame</title>
+  </head>
+  <body>
+    <div>
+      <p>Audio MP3 with &lt;source&gt; tag</p>
+      <audio controls muted>
+        <source src="./audio/file_example_MP3_2MG.mp3" type="audio/mpeg" />
+        Your browser doesn't support playing audio.
+      </audio>
+    </div>
+    <div>
+      <p>
+        Audio MP3 with
+        <i>source</i>
+        parameter
+      </p>
+      <audio src="./audio/file_example_MP3_2MG.mp3" controls></audio>
+    </div>
+    <div>
+      <p>Audio OGG with &lt;source&gt; tag</p>
+      <audio controls>
+        <source src="./audio/file_example_OOG_1MG.ogg" type="audio/mpeg" />
+      </audio>
+    </div>
+    <hr />
+    <iframe
+      src="https://en.wikipedia.org/wiki/Main_Page"
+      frameborder="0"
+      width="560"
+      height="600"></iframe>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/KxFt-EJuuPA?si=AnmB46GRLOWa3RZm"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+    <hr />
+    <video
+      src="./video/file_example_MP4_640_3MG.mp4"
+      controls
+      width="560"
+      type="video/mp4"></video>
+    <hr />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25780.174021583534!2d-5.373942468198245!3d36.12950747915733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0cbf762714be35%3A0x384e25263600870f!2z0pDRltCx0YDQsNC70YLQsNGA!5e0!3m2!1suk!2sua!4v1728072384799!5m2!1suk!2sua"
+      width="560"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </body>
+</html>
